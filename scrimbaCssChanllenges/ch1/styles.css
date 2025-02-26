@@ -1,0 +1,27 @@
+:root {
+  --spoiler-color: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.post {
+  background-color: rgb(194, 193, 193);
+  max-width: 400px;
+  margin: 20px;
+  padding: 30px 10px;
+  border-radius: 10px;
+}
+
+.spoiler {
+  background-color: var(--spoiler-color);
+  color: var(--spoiler-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.spoiler:hover {
+  background: initial;
+  color: initial;
+}
